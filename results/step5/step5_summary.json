@@ -1,0 +1,29 @@
+{
+  "best_params": {
+    "C": 0.1,
+    "class_weight": null
+  },
+  "best_cv_pr_auc": 0.6672673728619067,
+  "best_validation_threshold": 0.36,
+  "test_metrics": {
+    "pr_auc": 0.6363006578842332,
+    "roc_auc": 0.8417215634606939,
+    "f1": 0.6163069544364509,
+    "recall": 0.6871657754010695,
+    "precision": 0.558695652173913,
+    "balanced_accuracy": 0.7455152548502932,
+    "brier_score": 0.13744839732256656,
+    "threshold": 0.36,
+    "confusion_matrix": [
+      [
+        832,
+        203
+      ],
+      [
+        117,
+        257
+      ]
+    ]
+  },
+  "figures_dir": "/Users/bettylin/Documents/msin0097-predictive-analytics/reports/figures/02_modeling_fig2"
+}
